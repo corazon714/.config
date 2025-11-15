@@ -13,6 +13,8 @@
 !kitty/**
 !fish/
 !fish/**
+!waybar/
+!waybar/**
 # !micro/
 
 # Ignore sensitive or temporary files even in included directories
