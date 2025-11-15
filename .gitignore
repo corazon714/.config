@@ -1,0 +1,26 @@
+# Ignore everything by default
+*
+
+# But don't ignore these specific directories and files
+!.gitignore
+!.git/
+!hypr/
+!hypr/**
+
+# Optionally, you can include other specific configs you might want to sync later
+# !kitty/
+# !fish/
+# !micro/
+
+# Ignore sensitive or temporary files even in included directories
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore any cache or temporary files that might be in hypr directory
+hypr/.cache
+hypr/tmp
+hypr/*.log
+hypr/*~
