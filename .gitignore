@@ -9,8 +9,8 @@
 !hypr/**
 
 # Optionally, you can include other specific configs you might want to sync later
-# !kitty/
-# !fish/
+!kitty/
+!fish/
 # !micro/
 
 # Ignore sensitive or temporary files even in included directories
