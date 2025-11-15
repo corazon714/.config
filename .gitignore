@@ -4,6 +4,7 @@
 # But don't ignore these specific directories and files
 !.gitignore
 !.git/
+!README.md
 !hypr/
 !hypr/**
 
